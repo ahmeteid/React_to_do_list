@@ -1,0 +1,63 @@
+.to-do-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do-container .app-titile {
+    text-align: center;
+    background-color: blue;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+}
+
+.to-do-container ul li {
+    width: 170px;
+    overflow-wrap: break-word;
+    list-style: "👉";
+    cursor: pointer;
+}
+
+.to-do-container .li-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.to-do-container .f-input {
+    outline: 0;
+    border: 0;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    background-color: #0111;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.to-do-container .btn-add {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.to-do-container .f-input:hover,
+.to-do-container .btn-add:hover,
+.to-do-container .btn-add:focus,
+.to-do-container .f-input:focus {
+    background-color: #0333;
+}
+
+.to-do-container .btn-add {
+    outline: 0;
+    border: 0;
+    padding: 15px 30px;
+    font-weight: 700;
+}
